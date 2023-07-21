@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* reset.css 는 모든 문서에 포함될거니까 여기에 폰트를 import */
+
+html{ font-size: 16px; }
+body{ margin:0; font-family: 'Inter', sans-serif; }
+    /* body 태그에 폰트를 적용해주면 편함 */
+
+
+h1, h2, h3, p, figure{margin: 0;}
+ul, li{ margin: 0; padding: 0; list-style: none;}
+img{ vertical-align: middle; }
+    /* img앞에 p태그를 붙이면? p태그에 폰트사이즈 기본값이 적용되기때문에 약간의 여백(line-height)이 꼭 생겨서 그걸 제거해주는 것
+    vertical-align 인라인 태그를 정렬해주는 명령 */
+a{ text-decoration: none; color: black; }
+
+*{ box-sizing: border-box; }
+    /* *는 모든 태그를 가리킴(위에 쓰인..) */
+
+    /* reset.css 파일은 index.html이 아니라 .css에서 import로 넣는다 */
